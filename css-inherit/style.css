@@ -1,0 +1,28 @@
+body{
+    color: brown;
+    font-size: 20px;
+}
+ul{
+    color: darkgoldenrod;
+    font-size: 15px;
+}
+li{
+    color: green;
+}
+.orange{
+    color: orange !important;
+}
+#passive{
+    color: gray;
+    font-size: 45px;
+}
+a{
+    color: inherit;
+}
+span{
+    color: red;
+    border: 1px solid green;
+}
+#inherit span{
+    color: inherit;
+}
