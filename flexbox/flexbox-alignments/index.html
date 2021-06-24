@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            /* flex-direction: row-reverse; */
+            background-color: #e2e2e2;
+            padding: 15px;
+            flex-wrap: wrap;
+            /* justify-content: center; ortaya hizalar */
+            /* flex-wrap: wrap-reverse; */
+            /* justify-content: flex-end; sola hizalar */
+            /* justify-content: flex-start; saga hizalar */
+            /* - justify-content: space-beetween; her elemanin arasina esit degerde bosluk birakiyor
+            - justify-content: space-around; en sag ve en sol bosluga x bosluk birakiyor elemanlarin arasina ise 2x olacak sekilde bosluk birakiyor
+            - justify-content: space-evenly; sagdan soldan fark etmez elemanlarin arasindaki butun bosluklari esitliyor */
+        }
+
+        .item {
+            background-color: red;
+            padding: 40px;
+            margin: 30px;
+            color: #fff;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">item1</div>
+        <div class="item">item2</div>
+        <div class="item">item3</div>
+        <div class="item">item4</div>
+
+    </div>
+</body>
+
+</html>
