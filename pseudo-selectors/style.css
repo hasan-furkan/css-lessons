@@ -1,0 +1,71 @@
+/* Pseudo Elements */
+/* p::first-line{
+    font-weight: bold;
+    color: red;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+p.about::first-line{
+    color: green;
+}
+p::first-letter{
+    font-size: 48px;
+}
+p::after{
+    content: "-deneme";
+    display: block;
+    background-color: blueviolet;
+} */
+
+/* Pseudo Class */
+
+ul li:first-child{
+    background-color: blue;
+}
+ul li {
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+ul li:last-child{
+    background-color: green;
+}
+ul li:nth-of-type(even){
+border: 2px solid blueviolet;
+}
+ul li:nth-of-type(odd){
+    border: 2px solid red;
+    }
+a{
+    padding: 5px 8px;
+    text-decoration: none;
+    display: block;
+    width: 80px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+a:link{
+    color: rgb(230, 1, 1);
+}
+a:visited{
+    color: chartreuse;
+}
+a:hover{
+    color: white;
+    background: green;
+    
+}
+a:active{
+    color: green;
+    background: gold;
+}
+span{
+    display: none;
+    background: yellow;
+    padding: 20px;
+}
+div:hover span{
+    display: block;
+
+}
