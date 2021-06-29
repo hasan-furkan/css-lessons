@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+p{
+    font-size: 25px;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.f22{
+    font-size: 22px;
+}
+h1{
+    color: green;
+    text-align: center;
+}
+#header{
+    font-size: 45px;
+}
+#paragraf{
+    color: aqua;
+    font-size: 28px;
+}
